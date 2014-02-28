@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC4811715C2ED2A00CF19DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC4811615C2ED2A00CF19DF /* UIKit.framework */; };
+		8BC4811915C2ED2A00CF19DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC4811815C2ED2A00CF19DF /* Foundation.framework */; };
+		8BC4811B15C2ED2A00CF19DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC4811A15C2ED2A00CF19DF /* CoreGraphics.framework */; };
+		8BC4812115C2ED2A00CF19DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4811F15C2ED2A00CF19DF /* InfoPlist.strings */; };
+		8BC4812315C2ED2A00CF19DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4812215C2ED2A00CF19DF /* main.m */; };
+		8BC4812715C2ED2A00CF19DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4812615C2ED2A00CF19DF /* AppDelegate.m */; };
+		8BC4813915C2ED6800CF19DF /* UIGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4813815C2ED6800CF19DF /* UIGlossyButton.m */; };
+		8BC4813B15C2EFF100CF19DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC4813A15C2EFF100CF19DF /* QuartzCore.framework */; };
+		8BC4814115C2F08400CF19DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4813F15C2F08400CF19DF /* ViewController.m */; };
+		8BC4814215C2F08400CF19DF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4814015C2F08400CF19DF /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BC4811215C2ED2A00CF19DF /* iOS Glossy Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Glossy Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC4811615C2ED2A00CF19DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BC4811815C2ED2A00CF19DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC4811A15C2ED2A00CF19DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BC4811E15C2ED2A00CF19DF /* iOS Glossy Buttons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Glossy Buttons-Info.plist"; sourceTree = "<group>"; };
+		8BC4812015C2ED2A00CF19DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC4812215C2ED2A00CF19DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC4812415C2ED2A00CF19DF /* iOS Glossy Buttons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Glossy Buttons-Prefix.pch"; sourceTree = "<group>"; };
+		8BC4812515C2ED2A00CF19DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BC4812615C2ED2A00CF19DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BC4813715C2ED6800CF19DF /* UIGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIGlossyButton.h; path = Controls/UIGlossyButton.h; sourceTree = "<group>"; };
+		8BC4813815C2ED6800CF19DF /* UIGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIGlossyButton.m; path = Controls/UIGlossyButton.m; sourceTree = "<group>"; };
+		8BC4813A15C2EFF100CF19DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BC4813E15C2F08400CF19DF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BC4813F15C2F08400CF19DF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BC4814015C2F08400CF19DF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC4810F15C2ED2A00CF19DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC4813B15C2EFF100CF19DF /* QuartzCore.framework in Frameworks */,
+				8BC4811715C2ED2A00CF19DF /* UIKit.framework in Frameworks */,
+				8BC4811915C2ED2A00CF19DF /* Foundation.framework in Frameworks */,
+				8BC4811B15C2ED2A00CF19DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC4810715C2ED2A00CF19DF = {
+			isa = PBXGroup;
+			children = (
+				8BC4811C15C2ED2A00CF19DF /* iOS Glossy Buttons */,
+				8BC4811515C2ED2A00CF19DF /* Frameworks */,
+				8BC4811315C2ED2A00CF19DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC4811315C2ED2A00CF19DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4811215C2ED2A00CF19DF /* iOS Glossy Buttons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC4811515C2ED2A00CF19DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4811A15C2ED2A00CF19DF /* CoreGraphics.framework */,
+				8BC4811815C2ED2A00CF19DF /* Foundation.framework */,
+				8BC4811615C2ED2A00CF19DF /* UIKit.framework */,
+				8BC4813A15C2EFF100CF19DF /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC4811C15C2ED2A00CF19DF /* iOS Glossy Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4813D15C2F08400CF19DF /* Views */,
+				8BC4813615C2ED3400CF19DF /* Controls */,
+				8BC4812515C2ED2A00CF19DF /* AppDelegate.h */,
+				8BC4812615C2ED2A00CF19DF /* AppDelegate.m */,
+				8BC4811D15C2ED2A00CF19DF /* Supporting Files */,
+			);
+			path = "iOS Glossy Buttons";
+			sourceTree = "<group>";
+		};
+		8BC4811D15C2ED2A00CF19DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4811E15C2ED2A00CF19DF /* iOS Glossy Buttons-Info.plist */,
+				8BC4811F15C2ED2A00CF19DF /* InfoPlist.strings */,
+				8BC4812215C2ED2A00CF19DF /* main.m */,
+				8BC4812415C2ED2A00CF19DF /* iOS Glossy Buttons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC4813615C2ED3400CF19DF /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4813715C2ED6800CF19DF /* UIGlossyButton.h */,
+				8BC4813815C2ED6800CF19DF /* UIGlossyButton.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		8BC4813D15C2F08400CF19DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4813E15C2F08400CF19DF /* ViewController.h */,
+				8BC4813F15C2F08400CF19DF /* ViewController.m */,
+				8BC4814015C2F08400CF19DF /* ViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC4811115C2ED2A00CF19DF /* iOS Glossy Buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC4813315C2ED2A00CF19DF /* Build configuration list for PBXNativeTarget "iOS Glossy Buttons" */;
+			buildPhases = (
+				8BC4810E15C2ED2A00CF19DF /* Sources */,
+				8BC4810F15C2ED2A00CF19DF /* Frameworks */,
+				8BC4811015C2ED2A00CF19DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Glossy Buttons";
+			productName = "iOS Glossy Buttons";
+			productReference = 8BC4811215C2ED2A00CF19DF /* iOS Glossy Buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC4810915C2ED2A00CF19DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8BC4810C15C2ED2A00CF19DF /* Build configuration list for PBXProject "iOS Glossy Buttons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BC4810715C2ED2A00CF19DF;
+			productRefGroup = 8BC4811315C2ED2A00CF19DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC4811115C2ED2A00CF19DF /* iOS Glossy Buttons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC4811015C2ED2A00CF19DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC4812115C2ED2A00CF19DF /* InfoPlist.strings in Resources */,
+				8BC4814215C2F08400CF19DF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC4810E15C2ED2A00CF19DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC4812315C2ED2A00CF19DF /* main.m in Sources */,
+				8BC4812715C2ED2A00CF19DF /* AppDelegate.m in Sources */,
+				8BC4813915C2ED6800CF19DF /* UIGlossyButton.m in Sources */,
+				8BC4814115C2F08400CF19DF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BC4811F15C2ED2A00CF19DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC4812015C2ED2A00CF19DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC4813115C2ED2A00CF19DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC4813215C2ED2A00CF19DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC4813415C2ED2A00CF19DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Glossy Buttons/iOS Glossy Buttons-Prefix.pch";
+				INFOPLIST_FILE = "iOS Glossy Buttons/iOS Glossy Buttons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BC4813515C2ED2A00CF19DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Glossy Buttons/iOS Glossy Buttons-Prefix.pch";
+				INFOPLIST_FILE = "iOS Glossy Buttons/iOS Glossy Buttons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC4810C15C2ED2A00CF19DF /* Build configuration list for PBXProject "iOS Glossy Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC4813115C2ED2A00CF19DF /* Debug */,
+				8BC4813215C2ED2A00CF19DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC4813315C2ED2A00CF19DF /* Build configuration list for PBXNativeTarget "iOS Glossy Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC4813415C2ED2A00CF19DF /* Debug */,
+				8BC4813515C2ED2A00CF19DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC4810915C2ED2A00CF19DF /* Project object */;
+}
